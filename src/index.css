@@ -23,7 +23,7 @@ body {
     margin-bottom: 2em;
     margin-left: 3em;
     margin-right: 3em;
-    color: #090a0a;
+    color: white;
   }
 
   .pic {
@@ -32,6 +32,24 @@ body {
   }
 
   .hi {
-    font-size: calc(20px + 2vmin);
-    color: #014747;
+    font-size: calc(20px + 1vmin);
+    color: #dc5a26;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+}
+
+.footer {
+  background-color: #f9efd8;
+  color: black;
+  height: 5vmin;
+}
+  .work {
+    color: black;
   }

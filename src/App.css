@@ -13,6 +13,14 @@
   }
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  background-color: #282c34;
+  min-height: 80vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -47,5 +55,7 @@
   font-size: calc(10px + 1vmin);
   
 }
+
+
 
 

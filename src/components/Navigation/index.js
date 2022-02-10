@@ -1,28 +1,35 @@
 import React from 'react';
 
-function Nav() {
 
+function Navigation(props) {
+  const tabs = ["About", "Projects", "Resume","Contact"];
   return (
-    <header>
-  <h2>
-    <a href="/">
-      <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-    </a>
-  </h2>
-  <nav>
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a href="#about">
-          About me
-        </a>
-      </li>
-      <li>
-        <span>Contact</span>
-      </li>
-    </ul>
-  </nav>
-</header>
+    <div className="tabs is-centered">
+      <ul className="nav nav-tabs">
+        {tabs.map((tab) => (
+          <li
+            className={
+              props.currentPage === tab ? "nav-item is-active" : "nav-item"
+            }
+            key={tab}
+          >
+            <a
+              href={"#" + tab.toLowerCase()}
+              onClick={() => props.handlePageChange(tab)}
+              className={
+                props.currentPage === tab ? "nav-link active" : "nav-link"
+              }
+            >
+              {tab}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
+  
 
-export default Nav;
+
+export default Navigation;
+

@@ -6,21 +6,21 @@ function About() {
     <React.Fragment>
       <div className="container">
         <div className="row">
-          <div className="card">
+          <div >
             <div className="card-body">
               <div className="row abstract-back">
-                <img
+                <img className="pic"
                   src={Akhila}
-                  style={{
-                    width: "30%",
-                    height: 150,
-                    borderRadius: 150 / 2,
-                    overflow: "hidden",
-                    borderWidth: 3,
-                  }}
+                  // style={{
+                  //   width: "30%",
+                  //   // height: 150,
+                  //   // borderRadius: 150 / 2,
+                  //   // overflow: "hidden",
+                  //   // borderWidth: 3,
+                  // }}
                   alt="Akhila"
                 />
-                <h1>Hello, World!</h1>
+                <h1 className ="hi">Hello, World!</h1>
                 <p>
                   I'm Akhila Srinagula, a full-stack developer from Austin
                   Texas.{" "}
@@ -34,8 +34,8 @@ function About() {
 
       <div className="card-body">
         <div className="row">
-          <p className="Arimo">
-            I'm obsessed with web developing and has deep understanding in
+          <p className="abtme">
+            I'm obsessed with web developing and have deep understanding in
             Computer Science fundamentals, Javascript, ReactJS, NodeJS, MongoDB,
             CSS, HTML and other technologies.
           </p>

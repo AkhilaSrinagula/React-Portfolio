@@ -1,5 +1,5 @@
 body {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Poppins";
   font-weight: bold;
   text-align: center;
 }
@@ -23,7 +23,7 @@ body {
   main {
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-left: 3em;
+    margin-left: 4em;
     margin-right: 3em;
     color: black;
 
@@ -51,9 +51,9 @@ body {
 
 .footer {
   background-color: #fafafa ;
-  color: black;
   height: 5vmin;
   font-size: 20px;
+  
   
 }
   .work {
@@ -66,8 +66,9 @@ body {
   }
 .AS {
   font-weight: normal;
+  font-family: "Poppins";
 }
   .abtme {
     font-weight: normal;
-   
+    font-family: "Poppins";
   }

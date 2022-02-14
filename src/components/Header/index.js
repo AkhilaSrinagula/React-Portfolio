@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from "../../components/Nav"; 
 import About from "../../components/About";
 import Contact from '../../components/Contact';
+import Projects from '../../components/Portfolio';
 // import Resume from '../../components/Resume';
 
 
@@ -12,8 +13,8 @@ const renderPage = () => {
     switch (currentPage) {
       case "About":
         return <About />;
-      // case "Portfolio":
-      //   return <Portfolio />;
+      case "Portfolio":
+        return <Projects />;
       case "Contact":
         return <Contact />;
       // case "Resume":
@@ -32,12 +33,15 @@ const renderPage = () => {
       
       <Nav
         currentPage={currentPage}
+        
         handlePageChange={handlePageChange}
+        
       />
       
       <main>
         <div>{renderPage(currentPage)}</div>
       </main>
+      
     </div>
   );
 }

@@ -72,3 +72,17 @@ body {
     font-weight: normal;
     font-family: "Poppins";
   }
+
+  .skills {
+    font-family: "Poppins"
+  }
+  .resume {
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-family: "Poppins";
+      margin-left: 5em;
+      color: #455a64;
+      
+  }

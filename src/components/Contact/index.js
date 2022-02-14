@@ -61,6 +61,7 @@ function Contact() {
         <button className="button is-medium is-primary"type="submit">Submit</button>
       </form>
     </section>
+    
   );
 }
 

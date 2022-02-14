@@ -3,12 +3,11 @@ import Nav from "../../components/Nav";
 import About from "../../components/About";
 import Contact from '../../components/Contact';
 import Projects from '../../components/Portfolio';
-// import Resume from '../../components/Resume';
+import Resume from '../../components/Resume';
 
 
 function Header() {
   const [currentPage, handlePageChange] = useState("About");
-
 const renderPage = () => {
     switch (currentPage) {
       case "About":
@@ -17,8 +16,8 @@ const renderPage = () => {
         return <Projects />;
       case "Contact":
         return <Contact />;
-      // case "Resume":
-      //   return <Resume />;
+      case "Resume":
+        return <Resume />;
 
       default:
         return <About />;
@@ -26,18 +25,21 @@ const renderPage = () => {
   };
 
 
+
   return (
     <div>
       <nav className="navbar">
+      
       </nav>
       
       <Nav
+      
         currentPage={currentPage}
         
         handlePageChange={handlePageChange}
         
       />
-      
+      <h4> Akhila Srinagula </h4>
       <main>
         <div>{renderPage(currentPage)}</div>
       </main>

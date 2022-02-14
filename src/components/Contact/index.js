@@ -11,7 +11,6 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-    //   setFormState({ [e.target.name]: e.target.value });
       console.log('Form', formState);
     }
   };
@@ -38,27 +37,28 @@ function Contact() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <section className="container">
+      <h1>Contact Me</h1>
+      <hr></hr>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+        <div className="field">
+          <label className="label" htmlFor="name">Name</label>
+          <input className="input" type="text"  defaultValue={name} onBlur={handleChange} name="name" />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        <div className="field">
+          <label className="label" htmlFor="email">Email Address</label>
+          <input className="input" type="email"  defaultValue={email} onBlur={handleChange} name="email" />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+        <div className="field">
+          <label className="label" htmlFor="message">Message</label>
+          <textarea className="textarea"  rows="4" defaultValue={message} name="message" onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+        <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button className="button is-medium is-primary"type="submit">Submit</button>
       </form>
     </section>
   );

@@ -1,10 +1,12 @@
 body {
-  font-family: Work Sans;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
   text-align: center;
 }
   .navbar .navbar-brand {
     text-align: center;
     display: block;
+    
     width: 100%;
   }
   
@@ -23,7 +25,8 @@ body {
     margin-bottom: 2em;
     margin-left: 3em;
     margin-right: 3em;
-    color: white;
+    color: black;
+
   }
 
   .pic {
@@ -33,7 +36,8 @@ body {
 
   .hi {
     font-size: calc(20px + 1vmin);
-    color: #dc5a26;
+    font-weight: bold;
+    color: #8e24aa;
   }
 
   @media only screen and (max-width: 1024px) {
@@ -46,10 +50,24 @@ body {
 }
 
 .footer {
-  background-color: #f9efd8;
+  background-color: #fafafa ;
   color: black;
   height: 5vmin;
+  font-size: 20px;
+  
 }
   .work {
     color: black;
+  }
+
+  .Hello {
+    min-height: 50vh;
+    
+  }
+.AS {
+  font-weight: normal;
+}
+  .abtme {
+    font-weight: normal;
+   
   }

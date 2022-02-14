@@ -1,12 +1,12 @@
 # React Portfolio
 
 
-# Description
+## Description
 This is the portfolio of Akhila Srinagula built with React.
 
 ## Application screenshot
 
-![View](screenshot.png)
+![View](screen shot.png)
 
 ## Link to the app deployed
 

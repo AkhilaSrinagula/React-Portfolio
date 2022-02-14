@@ -7,9 +7,11 @@ This is the portfolio of Akhila Srinagula built with React.
 
 ## Link to the app deployed
 
+https://akhilasrinagula.github.io/React-Portfolio/
 
 ## GitHub Repo Link
 
+https://github.com/AkhilaSrinagula/React-Portfolio.git
 
 ## Technologies Used
 

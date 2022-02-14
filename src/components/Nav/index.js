@@ -6,6 +6,7 @@ function Nav(props) {
 const tabs = ["About", "Portfolio", "Contact", "Resume"];
 
   return (
+    
     <div className="tabs is-centered">
       <ul>
         {tabs.map((tab) => (

@@ -27,6 +27,7 @@ const renderPage = () => {
 
 
   return (
+    
     <div>
       <nav className="navbar">
       
@@ -39,7 +40,7 @@ const renderPage = () => {
         handlePageChange={handlePageChange}
         
       />
-      <h4> Akhila Srinagula </h4>
+      <h2> Akhila Srinagula </h2>
       <main>
         <div>{renderPage(currentPage)}</div>
       </main>

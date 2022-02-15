@@ -4,9 +4,10 @@
 ## Description
 This is the portfolio of Akhila Srinagula built with React.
 
+
 ## Application screenshot
 
-![View](Screen Shot.png)
+![View](screenshot.png)
 
 ## Link to the app deployed
 https://akhilasrinagula.github.io/React-Portfolio/

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.be5d7fd6.css",
-    "main.js": "/React-Portfolio/static/js/main.f51ede94.js",
+    "main.js": "/React-Portfolio/static/js/main.d297618c.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/fitr.png": "/React-Portfolio/static/media/fitr.99ae2c119ff97bd42a8b.png",
     "static/media/secondproject.png": "/React-Portfolio/static/media/secondproject.78f57a1cbd0899475a28.png",
     "static/media/first project.png": "/React-Portfolio/static/media/first project.a997e62317d4be71baf9.png",
     "static/media/weather dashboard.png": "/React-Portfolio/static/media/weather dashboard.ce5b2e9fcff10ae0ca7a.png",
     "static/media/Akhila.jpg": "/React-Portfolio/static/media/Akhila.87b248b45b3140b8beec.jpg",
-    "static/media/quiz.png": "/React-Portfolio/static/media/quiz.0e969c55a991b2f535ac.png",
     "static/media/budget tracker.png": "/React-Portfolio/static/media/budget tracker.6c03694187909ea96eba.png",
     "static/media/Work-day scheduler.png": "/React-Portfolio/static/media/Work-day scheduler.e263cd0dc35bb162a670.png",
     "index.html": "/React-Portfolio/index.html",
     "main.be5d7fd6.css.map": "/React-Portfolio/static/css/main.be5d7fd6.css.map",
-    "main.f51ede94.js.map": "/React-Portfolio/static/js/main.f51ede94.js.map",
+    "main.d297618c.js.map": "/React-Portfolio/static/js/main.d297618c.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be5d7fd6.css",
-    "static/js/main.f51ede94.js"
+    "static/js/main.d297618c.js"
   ]
 }
